@@ -61,7 +61,7 @@ namespace TinyUrl.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://localhost:44303/{0}.
+        ///   Looks up a localized string similar to https://localhost:44348/{0}.
         /// </summary>
         public static string HostAddress {
             get {

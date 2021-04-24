@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HostAddress" xml:space="preserve">
-    <value>https://localhost:44303/{0}</value>
+    <value>https://localhost:44348/{0}</value>
   </data>
 </root>
