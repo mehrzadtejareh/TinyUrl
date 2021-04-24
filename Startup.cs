@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TinyUrl.Entity;
+using TinyUrl.Services;
 
 namespace TinyUrl
 {
@@ -36,6 +37,9 @@ namespace TinyUrl
             });
             #region DbContext
             services.AddDbContext<TinyDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("TinyUrlConnection")));
+            #endregion
+            #region DI Register
+            services.AddScoped(typeof(IUrlService), typeof(UrlService));
             #endregion
         }
 
